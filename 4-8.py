@@ -11,3 +11,6 @@ def show_how_it_works(func):
 def add_two_numbers(a, b):
     return a + b
 decolated_func = show_how_it_works(add_two_numbers)
+
+if __name__ == "__main__":
+    print(decolated_func(1, 8))
